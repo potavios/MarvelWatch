@@ -1,0 +1,294 @@
+<resources>
+    <string name="app_name">MCU Watch</string>
+
+    <!-- Movies Titles .MainActiviy -->
+    <string name="title_01">Iron Man</string>
+    <string name="title_02">The Incredible Hulk</string>
+    <string name="title_03">Iron Man 2</string>
+    <string name="title_04">Thor</string>
+    <string name="title_05">Captain America: The First Avenger</string>
+    <string name="title_06">Avengers</string>
+    <string name="title_07">Iron Man 3</string>
+    <string name="title_08">Thor: The Dark World</string>
+    <string name="title_09">Captain America: The Winter Soldier</string>
+    <string name="title_10">Guardians of the Galaxy</string>
+    <string name="title_11">Avengers: Age of Ultron</string>
+    <string name="title_12">Ant-Man</string>
+    <string name="title_13">Captain America: Civil War</string>
+    <string name="title_14">Doctor Strange</string>
+    <string name="title_15">Guardians of the Galaxy Vol. 2</string>
+    <string name="title_16">Spider-Man: Homecoming</string>
+    <string name="title_17">Thor: Ragnarok</string>
+    <string name="title_18">Black Panther</string>
+    <string name="title_19">Avengers Infinity War</string>
+    <string name="title_20">Ant-Man and The Wasp</string>
+    <string name="title_21">Captain Marvel</string>
+    <string name="title_22">Avengers: Endgame</string>
+    <string name="title_23">Spiderman: Far From Home</string>
+
+
+    <!-- Release Date .MainActiviy -->
+    <string name="release_date_01">May 2, 2018</string>
+    <string name="release_date_02">June 13, 2008</string>
+    <string name="release_date_03">2010</string>
+    <string name="release_date_04">May 6, 2011</string>
+    <string name="release_date_05">July 22, 2011</string>
+    <string name="release_date_06">May 4, 2012</string>
+    <string name="release_date_07">May 3, 2013</string>
+    <string name="release_date_08">November 8, 2013</string>
+    <string name="release_date_09">April 4, 2014</string>
+    <string name="release_date_10">August 1, 2014</string>
+    <string name="release_date_11">May 1, 2015</string>
+    <string name="release_date_12">July 17, 2015</string>
+    <string name="release_date_13">May 6, 2016</string>
+    <string name="release_date_14">November 4, 2016</string>
+    <string name="release_date_15">May 5, 2017</string>
+    <string name="release_date_16">October 17, 2017</string>
+    <string name="release_date_17">November 3, 2017</string>
+    <string name="release_date_18">February 16, 2018</string>
+    <string name="release_date_19">April 27, 2018</string>
+    <string name="release_date_20">July 6, 2018</string>
+    <string name="release_date_21">March 8, 2019</string>
+    <string name="release_date_22">April 26, 2019</string>
+    <string name="release_date_23">July 2, 2019</string>
+
+
+    <!-- MCU Order .MainActiviy -->
+    <string name="mcu_order_01">#3\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_02">#5\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_03">#4\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_04">#6\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_05">#1\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_06">#7\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_07">#8\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_08">#9\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_09">#10\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_10">#11\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_11">#13\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_12">#14\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_13">#15\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_14">#17\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_15">#12\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_16">#16\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_17">#19\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_18">#18\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_19">#21\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_20">#20\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_21">#2\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_22">#22\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mcu_order_23">#23\u0020\u0020\u0020\u0020\u0020</string>
+
+
+    <!-- Chronological Date -->
+    <string name="mcu_year_01">2010</string>
+    <string name="mcu_year_02">2011</string>
+    <string name="mcu_year_03">2011</string>
+    <string name="mcu_year_04">2011</string>
+    <string name="mcu_year_05">1943-1945</string>
+    <string name="mcu_year_06">2012</string>
+    <string name="mcu_year_07">2012</string>
+    <string name="mcu_year_08">2013</string>
+    <string name="mcu_year_09">2014</string>
+    <string name="mcu_year_10">2014</string>
+    <string name="mcu_year_11">2015</string>
+    <string name="mcu_year_12">2015</string>
+    <string name="mcu_year_13">2016</string>
+    <string name="mcu_year_14">2016-2017</string>
+    <string name="mcu_year_15">2014</string>
+    <string name="mcu_year_16">2016</string>
+    <string name="mcu_year_17">2017</string>
+    <string name="mcu_year_18">2017</string>
+    <string name="mcu_year_19">2017</string>
+    <string name="mcu_year_20">2017</string>
+    <string name="mcu_year_21">1995</string>
+    <string name="mcu_year_22">2019</string>
+    <string name="mcu_year_23">2023</string>
+
+
+    <!-- idMcu MCU - FILTER -->
+    <string name="id_mcu_01">3</string>
+    <string name="id_mcu_02">5</string>
+    <string name="id_mcu_03">4</string>
+    <string name="id_mcu_04">6</string>
+    <string name="id_mcu_05">1</string>
+    <string name="id_mcu_06">7</string>
+    <string name="id_mcu_07">8</string>
+    <string name="id_mcu_08">9</string>
+    <string name="id_mcu_09">10</string>
+    <string name="id_mcu_10">11</string>
+    <string name="id_mcu_11">13</string>
+    <string name="id_mcu_12">14</string>
+    <string name="id_mcu_13">15</string>
+    <string name="id_mcu_14">17</string>
+    <string name="id_mcu_15">12</string>
+    <string name="id_mcu_16">16</string>
+    <string name="id_mcu_17">19</string>
+    <string name="id_mcu_18">18</string>
+    <string name="id_mcu_19">21</string>
+    <string name="id_mcu_20">20</string>
+    <string name="id_mcu_21">2</string>
+    <string name="id_mcu_22">22</string>
+    <string name="id_mcu_23">23</string>
+
+    <!-- idMcu Release - FILTER -->
+    <string name="id_rel_01">1</string>
+    <string name="id_rel_02">2</string>
+    <string name="id_rel_03">3</string>
+    <string name="id_rel_04">4</string>
+    <string name="id_rel_05">5</string>
+    <string name="id_rel_06">6</string>
+    <string name="id_rel_07">7</string>
+    <string name="id_rel_08">8</string>
+    <string name="id_rel_09">9</string>
+    <string name="id_rel_10">10</string>
+    <string name="id_rel_11">11</string>
+    <string name="id_rel_12">12</string>
+    <string name="id_rel_13">13</string>
+    <string name="id_rel_14">14</string>
+    <string name="id_rel_15">15</string>
+    <string name="id_rel_16">16</string>
+    <string name="id_rel_17">17</string>
+    <string name="id_rel_18">18</string>
+    <string name="id_rel_19">19</string>
+    <string name="id_rel_20">20</string>
+    <string name="id_rel_21">21</string>
+    <string name="id_rel_22">22</string>
+    <string name="id_rel_23">23</string>
+
+
+    <!-- Overviews -->
+    <string name="overview_01">2008\'s Iron Man tells the story of Tony Stark, a billionaire industrialist and genius inventor who is kidnapped and forced to build a devastating weapon. Instead, using his intelligence and ingenuity, Tony builds a high-tech suit of armor and escapes captivity. When he uncovers a nefarious plot with global implications, he dons his powerful armor and vows to protect the world as Iron Man.</string>
+    <string name="overview_02">In this new beginning, scientist Bruce Banner desperately hunts for a cure to the gamma radiation that poisoned his cells and unleashes the unbridled force of rage within him: The Hulk.
+        Living in the shadows-cut off from a life he knew and the woman he loves, Betty Ross-Banner struggles to avoid the obsessive pursuit of his nemesis, General Thunderbolt Ross and the military machinery that seeks to capture him and brutally exploit his power.As all three grapple with the secrets that led to the Hulk\'s creation, they are confronted with a monstrous new adversary known as the Abomination, whose destructive strength exceeds even the Hulk\'s own.
+        One scientist must make an agonizing final choice: accept a peaceful life as Bruce Banner or find heroism in the creature he holds inside-The Incredible Hulk.</string>
+    <string name="overview_03">With the world now aware that he is Iron Man, billionaire inventor Tony Stark faces pressure from all sides to share his technology with the military. He is reluctant to divulge the secrets of his armored suit, fearing the information will fall into the wrong hands. With Pepper Potts and "Rhodey" Rhodes by his side, Tony must forge new alliances and confront a powerful new enemy.</string>
+    <string name="overview_04">As the son of Odin, king of the Norse gods, Thor will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods\' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki, Thor\'s brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat.</string>
+    <string name="overview_05">Marvel\'s Captain America: The First Avenger focuses on the early days of the Marvel Universe when Steve Rogers volunteers to participate in an experimental program that turns him into the Super Soldier known as Captain America.</string>
+    <string name="overview_06">Marvel Studios presents in association with Paramount Pictures "Marvel\'s The Avengers" the super hero team up of a lifetime, featuring iconic Marvel super heroes Iron Man, the Incredible Hulk, Thor, Captain America, Hawkeye and Black Widow. When an unexpected enemy emerges that threatens global safety and security, Nick Fury, Director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins.</string>
+    <string name="overview_07">Marvel\'s "Iron Man 3" pits brash-but-brilliant industrialist Tony Stark/Iron Man against an enemy whose reach knows no bounds. When Stark finds his personal world destroyed at his enemy\'s hands, he embarks on a harrowing quest to find those responsible. This journey, at every turn, will test his mettle. With his back against the wall, Stark is left to survive by his own devices, relying on his ingenuity and instincts to protect those closest to him. As he fights his way back, Stark discovers the answer to the question that has secretly haunted him: does the man make the suit or does the suit make the man</string>
+    <string name="overview_08">In the aftermath of Marvel\'s "Thor"\ and "Marvel\'s The Avengers," Thor fights to restore order across the cosmos... but an ancient race led by the vengeful Malekith returns to plunge the universe back into darkness. Faced with an enemy that even Odin and Asgard cannot withstand, Thor must embark on his most perilous and personal journey yet, one that will reunite him with Jane Foster and force him to sacrifice everything to save us all.</string>
+    <string name="overview_09">After the cataclysmic events in New York with The Avengers, Marvel\'s "Captain America: The Winter Soldier," finds Steve Rogers, aka Captain America, living quietly in Washington, D.C. and trying to adjust to the modern world. But when a S.H.I.E.L.D. colleague comes under attack, Steve becomes embroiled in a web of intrigue that threatens to put the world at risk. Joining forces with the Black Widow, Captain America struggles to expose the ever-widening conspiracy while fighting off professional assassins sent to silence him at every turn. When the full scope of the villainous plot is revealed, Captain America and the Black Widow enlist the help of a new ally, the Falcon. However, they soon find themselves up against an unexpected and formidable enemy--the Winter Soldier.</string>
+    <string name="overview_10">An action-packed, epic space adventure, Marvel\'s "Guardians of the Galaxy," expands the Marvel Cinematic Universe into the cosmos, where brash adventurer Peter Quill finds himself the object of an unrelenting bounty hunt after stealing a mysterious orb coveted by Ronan, a powerful villain with ambitions that threaten the entire universe. To evade the ever-persistent Ronan, Quill is forced into an uneasy truce with a quartet of disparate misfits-Rocket, a gun-toting raccoon; Groot, a tree-like humanoid; the deadly and enigmatic Gamora; and the revenge-driven Drax the Destroyer. But when Quill discovers the true power of the orb and the menace it poses to the cosmos, he must do his best to rally his ragtag rivals for a last, desperate stand-with the galaxy\'s fate in the balance.</string>
+    <string name="overview_11">Marvel Studios presents “Avengers: Age of Ultron,” the epic follow-up to the biggest Super Hero movie of all time.When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and Earth’s Mightiest Heroes, including Iron Man, Captain America, Thor, The Incredible Hulk, Black Widow and Hawkeye, are put to the ultimate test as the fate of the planet hangs in the balance. As the villainous Ultron emerges, it is up to the Avengers to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure.</string>
+    <string name="overview_12">The next evolution of the Marvel Cinematic Universe brings a founding member of The Avengers to the big screen for the first time with Marvel Studios\' "Ant-Man." Armed with the astonishing ability to shrink in scale but increase in strength, master thief Scott Lang must embrace his inner-hero and help his mentor, Doctor Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world.</string>
+    <string name="overview_13">Marvel’s “Captain America: Civil War” finds Steve Rogers leading the newly formed team of Avengers in their continued efforts to safeguard humanity. But after another incident involving the Avengers results in collateral damage, political pressure mounts to install a system of accountability, headed by a governing body to oversee and direct the team. The new status quo fractures the Avengers, resulting in two camps—one led by Steve Rogers and his desire for the Avengers to remain free to defend humanity without government interference, and the other following Tony Stark’s surprising decision to support government oversight and accountability.</string>
+    <string name="overview_14">From Marvel Studios comes “Doctor Strange,” the story of world-famous neurosurgeon Dr. Stephen Strange whose life changes forever after a horrific car accident robs him of the use of his hands. When traditional medicine fails him, he is forced to look for healing, and hope, in an unlikely place—a mysterious enclave known as Kamar-Taj. He quickly learns that this is not just a center for healing but also the front line of a battle against unseen dark forces bent on destroying our reality. Before long Strange—armed with newly acquired magical powers—is forced to choose whether to return to his life of fortune and status or leave it all behind to defend the world as the most powerful sorcerer in existence.</string>
+    <string name="overview_15">Set to the backdrop of ‘Awesome Mixtape #2,’ Marvel’s Guardians of the Galaxy Vol. 2 continues the team’s adventures as they traverse the outer reaches of the cosmos. The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill’s true parentage. Old foes become new allies and fan-favorite characters from the classic comics will come to our heroes’ aid as the Marvel cinematic universe continues to expand.</string>
+    <string name="overview_16">A young Peter Parker/Spider-Man (Tom Holland), who made his sensational debut in Captain America: Civil War, begins to navigate his newfound identity as the web-slinging super hero in Spider-Man: Homecoming. Thrilled by his experience with the Avengers, Peter returns home, where he lives with his Aunt May (Marisa Tomei), under the watchful eye of his new mentor Tony Stark (Robert Downey, Jr.). Peter tries to fall back into his normal daily routine – distracted by thoughts of proving himself to be more than just your friendly neighborhood Spider-Man – but when the Vulture (Michael Keaton) emerges as a new villain, everything that Peter holds most important will be threatened.</string>
+    <string name="overview_17">Thor is imprisoned on the other side of the universe without his mighty hammer and finds himself in a race against time to get back to Asgard to stop Ragnarok the destruction of his homeworld and the end of Asgardian civilization at the hands of an all-powerful new threat, the ruthless Hela. But first he must survive a deadly gladiatorial contest that pits him against his former ally and fellow Avenger the Incredible Hulk!</string>
+    <string name="overview_18">Marvel Studios’ “Black Panther” follows T’Challa who, after the death of his father, the King of Wakanda, returns home to the isolated, technologically advanced African nation to succeed to the throne and take his rightful place as king. But when a powerful old enemy reappears, T’Challa’s mettle as king—and Black Panther—is tested when he is drawn into a formidable conflict that puts the fate of Wakanda and the entire world at risk. Faced with treachery and danger, the young king must rally his allies and release the full power of Black Panther to defeat his foes and secure the safety of his people and their way of life.</string>
+    <string name="overview_19">An unprecedented cinematic journey ten years in the making and spanning the entire Marvel Cinematic Universe, Marvel Studios\' "Avengers: Infinity War" brings to the screen the ultimate, deadliest showdown of all time. As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</string>
+    <string name="overview_20">From the Marvel Cinematic Universe comes a new chapter featuring heroes with the astonishing ability to shrink: “Ant-Man and The Wasp.” In the aftermath of “Captain America: Civil War,” Scott Lang (Paul Rudd) grapples with the consequences of his choices as both a Super Hero and a father. As he struggles to rebalance his home life with his responsibilities as Ant-Man, he’s confronted by Hope van Dyne (Evangeline Lilly) and Dr. Hank Pym (Michael Douglas) with an urgent new mission. Scott must once again put on the suit and learn to fight alongside The Wasp as the team works together to uncover secrets from their past.</string>
+    <string name="overview_21">Set in the 1990s, Marvel Studios\' "Captain Marvel" is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe that follows the journey of Carol Danvers as she becomes one of the universe\'s most powerful heroes. While a galactic war between two alien races reaches Earth, Danvers finds herself and a small cadre of allies at the center of the maelstrom.</string>
+    <string name="overview_22">The grave course of events set in motion by Thanos that wiped out half the universe and fractured the Avengers ranks compels the remaining Avengers to take one final stand in Marvel Studios\' grand conclusion to twenty-two films, "Avengers: Endgame."</string>
+    <string name="overview_23">Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.</string>
+
+
+    <!-- Directors -->
+    <string name="director_01">Jon Favreau</string>
+    <string name="director_02">Louis Leterrier</string>
+    <string name="director_03">Jon Favreau</string>
+    <string name="director_04">Kenneth Branagh</string>
+    <string name="director_05">Joe Johnston</string>
+    <string name="director_06">Joss Whedon</string>
+    <string name="director_07">Shane Black</string>
+    <string name="director_08">Alan Taylor</string>
+    <string name="director_09">Anthony Russo, Joe Russo</string>
+    <string name="director_10">James Gunn</string>
+    <string name="director_11">Joss Whedon</string>
+    <string name="director_12">Peyton Reed</string>
+    <string name="director_13">Anthony Russo, Joe Russo</string>
+    <string name="director_14">Scott Derrickson</string>
+    <string name="director_15">James Gunn</string>
+    <string name="director_16">Jon Watts</string>
+    <string name="director_17">Taika Waititi</string>
+    <string name="director_18">Ryan Coogler</string>
+    <string name="director_19">Anthony Russo, Joe Russo</string>
+    <string name="director_20">Peyton Reed</string>
+    <string name="director_21">Anna Boden, Ryan Fleck</string>
+    <string name="director_22">Anthony Russo, Joe Russo</string>
+    <string name="director_23">Jon Watts</string>
+
+
+    <!-- Writers -->
+    <string name="writer_01">Mark Fergus, Hawk Ostby, Art Marcum, Matt Holloway</string>
+    <string name="writer_02">Zak Penn</string>
+    <string name="writer_03">Justin Theroux</string>
+    <string name="writer_04">Ashley Miller, Zack Stentz, Don Payne</string>
+    <string name="writer_05">Christopher Markus, Stephen McFeely</string>
+    <string name="writer_06">Joss Whedon</string>
+    <string name="writer_07">Drew Pearce, Shane Black</string>
+    <string name="writer_08">Christopher L. Yost, Christopher Markus, Stephen McFeely</string>
+    <string name="writer_09">Christopher Markus, Stephen McFeely</string>
+    <string name="writer_10">James Gunn, Nicole Perlman</string>
+    <string name="writer_11">Joss Whedon</string>
+    <string name="writer_12">Edgar Wright, Joe Cornish, Adam McKay, Paul Rudd</string>
+    <string name="writer_13">Christopher Markus, Stephen McFeely</string>
+    <string name="writer_14">Jon Spaihts, Scott Derrickson, C. Robert Cargill</string>
+    <string name="writer_15">James Gunn</string>
+    <string name="writer_16">Jonathan Goldstein, John Francis Daley, Jon Watts, Christopher Ford, Chris McKenna, Erik Sommers</string>
+    <string name="writer_17">Eric Pearson, Craig Kyle, Christopher L. Yost</string>
+    <string name="writer_18">Ryan Coogler, Joe Robert Cole</string>
+    <string name="writer_19">Christopher Markus, Stephen McFeely</string>
+    <string name="writer_20">Chris McKenna, Erik Sommers, Andrew Barrer, Gabriel Ferrari, Paul Rudd</string>
+    <string name="writer_21">Anna Boden, Ryan Fleck, Geneva Robertson-Dworet</string>
+    <string name="writer_22">Christopher Markus, Stephen McFeely</string>
+    <string name="writer_23">Chris McKenna, Erik Sommers</string>
+
+    <!-- RunTime -->
+    <string name="runtime_01">126min</string>
+    <string name="runtime_02">112min</string>
+    <string name="runtime_03">124min</string>
+    <string name="runtime_04">115min</string>
+    <string name="runtime_05">124min</string>
+    <string name="runtime_06">143min</string>
+    <string name="runtime_07">130min</string>
+    <string name="runtime_08">112min</string>
+    <string name="runtime_09">136min</string>
+    <string name="runtime_10">121min</string>
+    <string name="runtime_11">141min</string>
+    <string name="runtime_12">117min</string>
+    <string name="runtime_13">147min</string>
+    <string name="runtime_14">115min</string>
+    <string name="runtime_15">136min</string>
+    <string name="runtime_16">133min</string>
+    <string name="runtime_17">130min</string>
+    <string name="runtime_18">134min</string>
+    <string name="runtime_19">149min</string>
+    <string name="runtime_20">125min</string>
+    <string name="runtime_21">125min</string>
+    <string name="runtime_22">182min</string>
+    <string name="runtime_23">129min</string>
+
+
+    <!-- Trailer Youtube Code -->
+    <string name="youtube_01">8hYlB38asDY</string>
+    <string name="youtube_02">xbqNb2PFKKA</string>
+    <string name="youtube_03">BoohRoVA9WQ</string>
+    <string name="youtube_04">vJUDu40Z_RY</string>
+    <string name="youtube_05">s6V754RPnZc</string>
+    <string name="youtube_06">eOrNdBpGMv8</string>
+    <string name="youtube_07">FrOSkod0pGU</string>
+    <string name="youtube_08">npvJ9FTgZbM</string>
+    <string name="youtube_09">82RKQPgeYRs</string>
+    <string name="youtube_10">2XltzyLcu0g</string>
+    <string name="youtube_11">tmeOjFno6Do</string>
+    <string name="youtube_12">QfOZWGLT1JM</string>
+    <string name="youtube_13">xnv__ogkt0M</string>
+    <string name="youtube_14">HSzx-zryEgM</string>
+    <string name="youtube_15">rEpsPXUt4R0</string>
+    <string name="youtube_16">k-dF1lIbIg</string>
+    <string name="youtube_17">ue80QwXMRHg</string>
+    <string name="youtube_18">xjDjIWPwcPU</string>
+    <string name="youtube_19">6ZfuNTqbHE8</string>
+    <string name="youtube_20">8_rTIAOohas</string>
+    <string name="youtube_21">Z1BCujX3pw8</string>
+    <string name="youtube_22">TcMBFSGVi1c</string>
+    <string name="youtube_23">DYYtuKyMtY8</string>
+
+
+    <string name="title_activity_splash_screen">MCU Watch</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>
