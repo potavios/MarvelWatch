@@ -2,14 +2,8 @@ package com.pauloos.recyclerviewsample.activity.activity;
 
 import android.os.Bundle;
 import android.text.Layout;
-import android.util.Log;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
@@ -40,11 +34,7 @@ public class DetailsActivity extends YouTubeBaseActivity implements YouTubePlaye
         order = findViewById(R.id.tv_order);
 
 
-
-
-
         ytpv.initialize( GOOGLE_API_KEY, this);
-
 
         String mOverview = getIntent().getStringExtra("overview");
         String mDirector = getIntent().getStringExtra("director");
@@ -66,30 +56,20 @@ public class DetailsActivity extends YouTubeBaseActivity implements YouTubePlaye
 
         youtubeVideoId = setYoutubeId(mYoutube);
 
-
-
-
-
     }
 
 
     @Override
     public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean foiRestaurado) {
-        Toast.makeText(this, "SUCESSO", Toast.LENGTH_SHORT).show();
-
         if ( ! foiRestaurado) {
             youTubePlayer.cueVideo(youtubeVideoId);
             youTubePlayer.addFullscreenControlFlag(1);
-
         }
-
-
     }
 
     @Override
     public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
-        Toast.makeText(this, "NO SUCESSO", Toast.LENGTH_SHORT).show();
-
+        Toast.makeText(this, "Fail in loading video.", Toast.LENGTH_SHORT).show();
     }
 
     public String setYoutubeId(String youtube){

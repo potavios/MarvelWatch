@@ -1,6 +1,6 @@
 package com.pauloos.recyclerviewsample.activity.model;
 
-
+/** 12 **/
 public class Film {
 
     private String title, releaseDate, order, chronologicalYear, overview, director, writer, runtime, youtubeId;
@@ -9,7 +9,6 @@ public class Film {
 
     public Film() {
     }
-
 
     public Film(String title, String releaseDate, String order, String chronologicalYear, String overview, String director, String writer, String runtime, int posterUrl, int idMcu, int idRel, boolean seen, String youtubeId) {
         this.title = title;
@@ -87,11 +86,9 @@ public class Film {
     public void setIdRel(int idRel) {
         this.idRel = idRel;
     }
-
     public boolean isSeen() {
         return seen;
     }
-
     public void setSeen(boolean seen) {
         this.seen = seen;
     }

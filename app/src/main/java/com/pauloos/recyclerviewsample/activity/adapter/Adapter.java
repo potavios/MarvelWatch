@@ -1,85 +1,54 @@
 package com.pauloos.recyclerviewsample.activity.adapter;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.pauloos.recyclerviewsample.R;
-import com.pauloos.recyclerviewsample.activity.activity.MainActivity;
 import com.pauloos.recyclerviewsample.activity.model.Film;
-
 import java.util.List;
 
-
-/*5 - Deve se passar um View Holder para o RecyclerView.Adapter<VIEW HOLDER> */
+/** 4 - We should pass a ViewHolder to the RecyclerView.Adapter<ViewHolderName> **/
 public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
 
-    /* 15 */
+    /** 15 **/
     private List<Film> movieList;
     public Adapter(List<Film> list) {
         this.movieList =  list;
     }
 
-
-
-    /* 7 */
+    /** 6 **/
     @NonNull
-    @Override // Este método cria apenas as view que serão exibidas na tela //
+    @Override /** This method creates a view that will be displayed on screen. **/
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-
-        /* 9 */
+        /** 8 **/
         View itemList = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_list, parent, false);
         return new MyViewHolder( itemList );
     }
 
-    @Override // Este método exibe os itens //
+    /** 6 **/
+    @Override /** This method displays the items **/
     public void onBindViewHolder(@NonNull MyViewHolder holder, final int position) {
 
+        /** 17 **/
         Film film = movieList.get( position );
-
         holder.title.setText( film.getTitle());
         holder.releaseDate.setText( film.getReleaseDate());
         holder.order.setText( film.getOrder());
         holder.chronologicalYear.setText(film.getChronologicalYear());
         holder.poster.setImageResource( film.getPosterUrl());
-        holder.getItemId();
-
-
-
-        holder.poster.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-            }
-        }
-
-
-
-        );
-
-
-
     }
 
-    @Override // Retorna a qt de items a serem exibidos
+    @Override /** 16 returns how many item should be displayed **/
     public int getItemCount() {
-        /* 16 */
         return movieList.size();
     }
 
 
-
-    /**
-     * 6
-     * Classe interna responsável por guardar os dados antes de serem exibidos na tela
-     */
+    /** 5 - Internal Class created. This class is responsible to keep the data before display it  on screen. */
     public class MyViewHolder extends RecyclerView.ViewHolder {
 
         TextView title, releaseDate, order, chronologicalYear;
@@ -88,21 +57,13 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            /* 10 */
+            /** 09 **/
             title = itemView.findViewById(R.id.tv_title);
             releaseDate = itemView.findViewById(R.id.tv_rDate);
             order = itemView.findViewById(R.id.tv_order);
             chronologicalYear = itemView.findViewById(R.id.tv_cDate);
             poster = itemView.findViewById(R.id.iv_poster);
-
-
-
-
-
-
         }
     }
-
-
 
 }

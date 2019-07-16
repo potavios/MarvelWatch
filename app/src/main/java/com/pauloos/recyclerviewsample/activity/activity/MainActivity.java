@@ -29,10 +29,10 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     /*************************************************************
-     1) Create a RecyclerView in xml file
-     2) Set an ID for the RecyclerView created
-     3) Create a RecyclerView type attribute
-     4) Refer the rv with the FindViewById
+     1) Create a RecyclerView in xml file and set an ID for it
+     2) Create a RecyclerView type variable
+
+     3) Refer the RecyclerView created with the FindViewById
      5) Set the adapter ( creating a class Adapter and extending class RecyclerView.Adapter )
      6) Create an internal class whithin class "Adapter" and create the attributes for the data you want to show
      7) Implements methods of RecyclerView.Adapter
@@ -48,7 +48,11 @@ public class MainActivity extends AppCompatActivity {
      17) onBindViewHolder --> here we will recover the movies attributs
 
     *************************************************************/
-    /* 3 */
+
+
+
+
+    /* 2 */
     private RecyclerView recyclerView;
 
     /* 13 */
@@ -57,8 +61,9 @@ public class MainActivity extends AppCompatActivity {
     private Button btChrono, btRelease;
 
     private static final String GOOGLE_API_KEY = "AIzaSyBCQ-AWkgAG8W1K12dQ1SgJLraPTKX7fI0";
-
     Adapter adapter = new Adapter( filmList );
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        /* 4 */
+        /* 3 */
         recyclerView = findViewById(R.id.recyclerView);
 
         /* 14 */
