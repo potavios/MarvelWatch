@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
      8) Create a XML file with the model of our view ( adapter_list.xml )
      9) We need to convert our XML file into a object type 'View'
      10) Recovery the ids in class MyViewHolder by FindViewById
+
      11) Set the RecyclerView
      12) Create a class to manage de films attributes
      13) Create a list of movies
@@ -91,19 +92,12 @@ public class MainActivity extends AppCompatActivity {
                 orderByChronologycalOrder();
             }
         });
-
-
-
         btRelease.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 orderByReleaseOrder();
             }
         });
-
-
-
-
 
         /* 6 */
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
@@ -162,7 +156,8 @@ public class MainActivity extends AppCompatActivity {
         Film film = new Film(getString(R.string.title_01), getString(R.string.release_date_01), getString(R.string.mcu_order_01), getString(R.string.mcu_year_01), getString(R.string.overview_01), getString(R.string.director_01), getString(R.string.writer_01), getString(R.string.runtime_01), R.drawable.poster_01, Integer.valueOf(getString(R.string.id_mcu_01)), Integer.valueOf(getString(R.string.id_rel_01)), false, getString(R.string.youtube_01));
         this.filmList.add( film );
 
-        film = new Film( getString(R.string.title_02), getString(R.string.release_date_02), getString(R.string.mcu_order_02), getString(R.string.mcu_year_02), getString(R.string.overview_02), getString(R.string.director_02), getString(R.string.writer_02 ), getString(R.string.runtime_02), R.drawable.poster_02, Integer.valueOf(getString(R.string.id_mcu_02)), Integer.valueOf(getString(R.string.id_rel_02)), false, getString(R.string.youtube_02)); this.filmList.add( film );
+        film = new Film( getString(R.string.title_02), getString(R.string.release_date_02), getString(R.string.mcu_order_02), getString(R.string.mcu_year_02), getString(R.string.overview_02), getString(R.string.director_02), getString(R.string.writer_02 ), getString(R.string.runtime_02), R.drawable.poster_02, Integer.valueOf(getString(R.string.id_mcu_02)), Integer.valueOf(getString(R.string.id_rel_02)), false, getString(R.string.youtube_02));
+        this.filmList.add( film );
         film = new Film( getString(R.string.title_03), getString(R.string.release_date_03), getString(R.string.mcu_order_03), getString(R.string.mcu_year_03), getString(R.string.overview_03), getString(R.string.director_03), getString(R.string.writer_03 ), getString(R.string.runtime_03), R.drawable.poster_03, Integer.valueOf(getString(R.string.id_mcu_03)), Integer.valueOf(getString(R.string.id_rel_03)), false, getString(R.string.youtube_03)); this.filmList.add( film );
         film = new Film( getString(R.string.title_04), getString(R.string.release_date_04), getString(R.string.mcu_order_04), getString(R.string.mcu_year_04), getString(R.string.overview_04), getString(R.string.director_04), getString(R.string.writer_04 ), getString(R.string.runtime_04), R.drawable.poster_04, Integer.valueOf(getString(R.string.id_mcu_04)), Integer.valueOf(getString(R.string.id_rel_04)), false, getString(R.string.youtube_04)); this.filmList.add( film );
         film = new Film( getString(R.string.title_05), getString(R.string.release_date_05), getString(R.string.mcu_order_05), getString(R.string.mcu_year_05), getString(R.string.overview_05), getString(R.string.director_05), getString(R.string.writer_05 ), getString(R.string.runtime_05), R.drawable.poster_05, Integer.valueOf(getString(R.string.id_mcu_05)), Integer.valueOf(getString(R.string.id_rel_05)), false, getString(R.string.youtube_05)); this.filmList.add( film );

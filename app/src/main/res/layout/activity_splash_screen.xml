@@ -13,5 +13,5 @@
         android:layout_gravity="center"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        app:srcCompat="@drawable/splash" />
+        app:srcCompat="@drawable/splash_screen" />
 </LinearLayout>
