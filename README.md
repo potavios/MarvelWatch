@@ -13,9 +13,9 @@ The content of this app (images, text descriptions, etc, were got from Marvel's 
 https://www.marvel.com/
 
 <div>
-<a href="url"><img src="/app/src/main/res/drawable/001_splash.gif" align="left" height="480" width="270" ></a>
-<a href="url"><img src="/app/src/main/res/drawable/002_nav.gif" align="left" height="480" width="270" ></a>
-<a href="url"><img src="/app/src/main/res/drawable/001_detail.png" align="left" height="480" width="270" ></a>
+<a href="url"><img src="/app/src/main/res/drawable/splash.gif" align="left" height="480" width="270" ></a>
+<a href="url"><img src="/app/src/main/res/drawable/nav_002.gif" align="left" height="480" width="270" ></a>
+<a href="url"><img src="/app/src/main/res/drawable/detail_001.png" align="left" height="480" width="270" ></a>
 <br>
-<a href="url"><img src="/app/src/main/res/drawable/002_detail.png" align="left" height="480" width="270" ></a>
+<a href="url"><img src="/app/src/main/res/drawable/detail_002.png" align="left" height="480" width="270" ></a>
 
